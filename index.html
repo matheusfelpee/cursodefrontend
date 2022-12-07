@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-3 section-title">Pra quem Pedala</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#noticias" class="nav-link">
+                            <i class="bi bi-archive me-1"></i>
+                            Tudo sobre o Mundo da Bike
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1 "></i>
+                            Nossos Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link active">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true" >
+        <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="w-100" src="https://cdn-blob.austria.info/cms-uploads-prod/default/0001/06/thumb_5704_default_header_big.jpeg" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="w-100" src="https://zonazeropirineos.com/wp-content/uploads/2018/07/ZonaZero-Rutas-Francia.jpg" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="w-100" src="https://img1.oastatic.com/img2/36732847/1080x410r/mit-dem-mountainbike-durch-lana.jpg" alt="">
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel"  data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    <section id="sobre">
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="https://1.bp.blogspot.com/-ifZsy-Xb4b4/YTuDzjetWUI/AAAAAAAASiM/2nfJIvckyecbgr8AeZFjjsTrsaY-_AU2QCLcBGAsYHQ/s1345/visual-bike.jpg" class="d-block w-100 rounded" alt="">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored"> a Loja</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis nemo minima culpa at facilis doloribus natus cum ducimus qui? Dolor reprehenderit minus animi, neque optio autem doloremque recusandae hic.
+                        </p>
+                        <h3 class="section-title"> Sobre <span class="text-colored">nosso Espaço</span></h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, qui commodi. Fugit, deserunt dolore quaerat quidem porro id odit corporis ea. Ratione delectus mollitia aspernatur inventore beatae dolores magnam fugiat!
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="noticias">
+        <div class="container">
+            <h1 class="section-title text-center">Novas <span class="text-colored">notícias</span></h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-bg-dark">
+                        <img class="rounded" src="https://www.canaldebike.com.br/nextimg/https%3A%2F%2Fadm.canaldebike.com.br%2Fwp-content%2Fuploads%2F2022%2F12%2FVan-der-Poel-Cyclocross-980x550.jpg/1600/75?url=https%3A%2F%2Fadm.canaldebike.com.br%2Fwp-content%2Fuploads%2F2022%2F12%2FVan-der-Poel-Cyclocross-980x550.jpg&w=1600&q=75" alt="">
+                        <div class="card-body">
+                            <h4 class="text-colored">Notícia 1</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem laborum ullam ipsum veniam molestiae voluptatum repellendus hic quisquam accusantium autem in impedit qui, excepturi incidunt labore architecto sequi aperiam.
+                            </p>
+                            <a href="#" class="btn btn-success">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-bg-dark">
+                        <img class="rounded" src="https://www.canaldebike.com.br/nextimg/https%3A%2F%2Fadm.canaldebike.com.br%2Fwp-content%2Fuploads%2F2022%2F12%2Fmaxresdefault-980x550.jpg/1600/75?url=https%3A%2F%2Fadm.canaldebike.com.br%2Fwp-content%2Fuploads%2F2022%2F12%2Fmaxresdefault-980x550.jpg&w=1600&q=75" alt="">
+                        <div class="card-body">
+                            <h4 class="text-colored">Notícia 2</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem laborum ullam ipsum veniam molestiae voluptatum repellendus hic quisquam accusantium autem in impedit qui, excepturi incidunt labore architecto sequi aperiam.
+                            </p>
+                            <a href="#" class="btn btn-success">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card text-bg-dark">
+                        <img class="rounded" src="https://www.canaldebike.com.br/nextimg/https%3A%2F%2Fadm.canaldebike.com.br%2Fwp-content%2Fuploads%2F2022%2F12%2FTour-de-France-980x550.jpg/1600/75?url=https%3A%2F%2Fadm.canaldebike.com.br%2Fwp-content%2Fuploads%2F2022%2F12%2FTour-de-France-980x550.jpg&w=1600&q=75" alt="">
+                        <div class="card-body">
+                            <h4 class="text-colored">Notícia 3</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam exercitationem laborum ullam ipsum veniam molestiae voluptatum repellendus hic quisquam accusantium autem in impedit qui, excepturi incidunt labore architecto sequi aperiam.
+                            </p>
+                            <a href="#" class="btn btn-success">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <h1 class="section-title mt-5 text-center">Siga <span class="text-colored">-Nos</span></h1>
+    </div>
+            <div class="mt-4">
+                <img src="https://cdn.pixabay.com/photo/2020/09/05/04/40/smartphone-5545553_960_720.jpg" class="img-fluid w-100"  alt="">
+            </div>
+    <section id="produtos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Nossos <span class="text-colored">Produtos</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-produtos">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#blusas" class="fw-bold text-start nav-link text-colored active">Blusas</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#capacete" class="fw-bold text-start nav-link text-colored">Capacetes</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#meias" class="fw-bold text-start nav-link text-colored">Meias</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#casual" class="fw-bold text-start nav-link text-colored">Roupas Casuais</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bag"class="fw-bold text-start nav-link text-colored">Mochilas</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="blusas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_748984-MLB51465331546_092022-F.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 1</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_924875-MLB50423730242_062022-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 2</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_906544-MLB51936743054_102022-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 3</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_819204-MLB51147627387_082022-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 4</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="capacete">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_728116-MLB48408120719_122021-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 1</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_741801-MLB48381023196_112021-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 2</h5>
+                                    <p class="">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_728116-MLB48408120719_122021-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 3</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_741801-MLB48381023196_112021-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 4</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="meias">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_849387-MLB51824829926_102022-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 1</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_758057-MLB45433095971_042021-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 2</h5>
+                                    <p class="">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_849387-MLB51824829926_102022-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 3</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://http2.mlstatic.com/D_NQ_NP_758057-MLB45433095971_042021-O.webp" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 4</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bag">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="https://cdn.awsli.com.br/600x1000/1686/1686500/produto/98281462865804dd5a.jpg" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 1</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://cdn.awsli.com.br/600x1000/1686/1686500/produto/859229109142122d99.jpg" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 2</h5>
+                                    <p class="">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://cdn.awsli.com.br/600x1000/1686/1686500/produto/98281462865804dd5a.jpg" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 3</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://cdn.awsli.com.br/600x1000/1686/1686500/produto/859229109142122d99.jpg" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 4</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="casual">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="https://cf.shopee.com.br/file/5c3ee00a53d54a9fee227b0d0f9ce028" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 1</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://images-americanas.b2w.io/produtos/4481784327/imagens/west-biking-10l-mochila-impermeavel-para-bicicleta-mtb-bolsa-unissex-para-mountain-bike-para-ciclismo-profissional-ao-ar-livre-escalada-para-viagens-esportivas/4481784351_1_large.jpg" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 2</h5>
+                                    <p class="">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="https://cf.shopee.com.br/file/5c3ee00a53d54a9fee227b0d0f9ce028" class="d-block w-100" alt="">
+                                    <h5 class="text-colored fw-bold mt-2">Blusa 3</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, debitis labore maxime culpa assumenda dolore error.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored active">Seu Nome:</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored active">Seu E-mail:</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored active">Seu Telefone:</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored active">Sua Mensagem:</label>
+                            <textarea class="form-control" id="mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-success fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored mt-5">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo n°145, Bairro Bootstrap - Brasília - DF
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

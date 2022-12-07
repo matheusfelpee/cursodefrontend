@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #649671;
+}
+
+#cabecalho .nav .nav-link.active {
+    color: #649671;
+    background-color: #fff;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.section-title {
+    font-family: 'Pacifico', 'cursive';
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #649671;
+}
+
+.card {
+    margin-top: 24px;
+}
+
+.nav-produtos .nav-link.active {
+    background-color: #649671;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #649671;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 250px;
+    }
+}
